@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient( to top,rgba(249,204,118,0.7),rgba(249,204,118,0.1)),url(background.png) no-repeat center/cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 600px;
+    height: 590px;
+    border: none;
+    border-radius: 30px;
+    background: white;
+    padding: 40px;
+    box-shadow: 10px 10px 15px #EEF2FF;
+}
+
+.content h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.content li{
+    list-style: none;
+    margin: 0 7px;
+}
+
+.content{
+    margin-left: 60px;
+    display: inline-flex;
+}
+
+/* .login-form{
+    margin-top: 20px;
+}
+
+.login-group.error small{
+    color: red;
+}
+
+
+.login-group input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-align: left;
+    background: rgba(0,0,0,0.1);
+    border-radius: 0 15px 0 15px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+
+.login-group input:focus{
+    background: rgba(255, 255, 219,0.1);
+    border-radius: 15px 0 15px 0 ;
+}
+
+.login-group span{
+    border-bottom: 2px solid #FF5959;
+    width: 100%;
+    left: 0;
+}
+
+.login-form small{
+    margin-left: 90px;
+    color: red;
+} */
+
+/* .btn2{
+    font-size: 20px;
+} */
+
+/* .btn1 button{
+    width: 350px;
+    height: 35px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #FF7F3F;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn1 button:hover{
+    background: red;
+} */
+
+.form{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form input {
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-align: left;
+    background: rgba(0,0,0,0.1);
+    border-radius: 0 15px 0 15px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    padding: 10px;
+    font-size: 15px;
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+    transition: 0.4s;
+}
+
+.form input:hover{
+    background: rgba(255, 255, 219,0.1);
+    border-radius: 15px 0 15px 0 ;
+}
+
+
+.log input{
+    width: 350px;
+    height: 35px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #FF7F3F;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+.log input:hover{
+    background: red;
+}
+
+.form-control{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    padding: 5px;
+}
+
+.bt1{
+    background: #548CFF;
+    color: white;
+    outline: none;
+    width: 200px;
+    height: 22px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+
+.bt1:hover{
+    background-color: aqua;
+}
+
+.bt2{
+    background: #A3DA8D;
+    color: white;
+    outline: none;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+}
+
+.bt2:hover{
+    background-color: #a0db5d;
+}
+
+.bonus a{
+    padding: auto;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.bonus a:hover{
+    text-decoration: underline;
+}
+
+.a1{
+    margin-left: 90px;
+}
+
+.a2{
+    margin-left: 65px;
+}
+
+.bonus h2{
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.3;
+
+}
+
+
+.signup{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup a{
+    color: #FF5959;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}

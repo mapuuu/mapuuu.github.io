@@ -1,0 +1,272 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border-style: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    background-color: white;
+    --height: 100px;
+    height: var(--height);
+    border-bottom: 1px solid rgb(218, 215, 215);
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    display: flex; 
+    padding: 0 28px;
+    font-size: 1.4rem;
+}
+
+.nav_body {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+}
+
+.nav_top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.nav_top div input {
+    text-indent: 10px;
+    background-color: #FDF4E7;
+    width: 423px;
+    height: 44px; 
+    border-radius: 25px;
+}
+
+.nav_top input::placeholder {
+    text-align: center;
+    color: #464646;
+}
+
+
+
+.infor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FDF4E7;
+    width: 284px;
+    height: 44px; 
+    border-radius: 25px;
+}
+
+.infor li a i {
+    color: #464646;
+}
+
+
+.tab_bar {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ul {
+    list-style-type:none;
+}
+
+.tab_bar li a{
+    color: black;
+    text-decoration: none;
+    color: #464646;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.tab_bar li a:hover {
+    color: #FFB139;
+    border-bottom: 2px solid #FFB139 ;
+}
+
+.content {
+    margin-top: 140px;
+}
+
+.content img {
+    width: 100%;
+    height: 70vmin;
+    object-fit: cover;
+
+}
+
+.line {
+    border-bottom: 1px solid #000 ;
+    margin: 30px 200px;
+}
+
+.content_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FDF4E7;
+}
+
+.content_1 div {
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.list_pets {
+    
+    flex: 1 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 1000px;
+    justify-content: center;
+}
+.list_pets div {
+    margin: 20px;
+}
+
+.list_pets div img {
+    height: 200px;
+    width: 200px;
+}
+
+.pet {
+    text-decoration: none;
+    color:#000;
+}
+.pet:hover {
+    color:#FFB139;
+}
+.list_pets div h2 {
+    margin: 14px;
+    text-align: left;
+}
+h6 {
+    font-size: 12px;
+    text-align: left;
+}
+
+.bonus:link, .bonus:visited {
+    background-color: #FFB139;
+    color: #FDF4E7;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  }
+
+.bnus:hover {
+    background-color: #ff9a04;
+}
+
+.content_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdfdfd;
+    padding-bottom: 10px;
+}
+.feed {
+    display: flex;
+    flex-direction: column;
+}
+.feeds {
+    display: flex;
+    width: 165vh;
+}
+
+.news {
+    margin: 0vh 20vh 10vh 20vh
+}
+
+.news img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.texts {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.up {
+    background-color: #FFB139;
+    padding-bottom: 5px;
+}
+.footer_1 {
+    display: flex;
+    justify-content:space-evenly;
+    height: 200px;
+}
+.footer_1 div {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.footer_1 div h2 {
+    margin: 10px;
+    text-decoration: underline;
+    color: #FDF4E7;
+}
+
+.footer_1 div p {
+    color: #4FAEE8;
+}
+
+.footer_2 {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.input_2 input {
+    width: 320px;
+    height: 50px;
+}
+.input_2 a:link, .input_2 a:visited {
+    background-color: #D61E1E;
+    padding: 14px 20px 18px 25px;
+    color: #FDF4E7;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.down {
+    background-color: #000;
+}
+.down p {
+    color: #FDF4E7;
+    text-align: center;
+    padding: 12px 0px 12px;
+}

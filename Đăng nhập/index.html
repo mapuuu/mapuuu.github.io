@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Đăng nhập</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="styleĐN.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <li><img src="logo.png" width="50" height="50" alt="Adapty"></li>
+                <h1>Đăng nhập Adapty</h1>
+            </div>
+
+            <!-- <div class="login-form">
+                <div class="login-group">
+                    <input id="email" type="email" class="email" placeholder="Số điện thoại/Email">
+                </div>
+                <div class="login-group">
+                    <input id="password" type="password" class="password" placeholder="Mật khẩu">
+                    <small></small>
+                </div>
+                <div class="btn1"> 
+                    <button type="submit" class="btn2" >ĐĂNG NHẬP</button>
+                </div>
+            </div> -->
+
+            <div class="form">
+                <script language="javascript">
+                    function validate(){
+                    var username = document.getElementById("username").value;
+                    var password = document.getElementById("password").value;
+                    var message = document.getElementById("message");
+                    if (username == "" || password == ""){
+                        message.innerHTML = "Vui lòng điền đầy đủ thông tin!";
+                        message.style.color = "red";
+                    }
+                    else{
+                        message.innerHTML = "Đăng nhập thành công!";
+                        message.style.color = "blue";
+                    }
+                    }
+                    </script>
+                    <input type="text" value="" id="username"  placeholder="Số điện thoại / Email" /> <br/>
+                    <input type="password" value="" id="password"  placeholder="Mật khẩu"/> <br/>
+                <div id="message"></div>    
+            </div>
+
+            <div class="log">
+                <input type="button" value="ĐĂNG NHẬP"  onclick="validate()"/>
+            </div>
+            
+            <div class="bonus">
+                <a class="a1" href="#">Quên mật khẩu</a>
+                <a class="a2" href="#">Đăng nhập với SMS</a>
+                <h2>HOẶC</h2>
+            </div>
+            
+            <div class="form-control">
+                <button type="submit" class="bt1">
+                    <i class="fab fa-facebook-square"></i>
+                    <span>Tiếp tục với facebook</span>
+                </button><br>
+                <button type="submit" class="bt2">
+                    <i class="fab fa-google"></i>
+                    <span>Tiếp tục với Google</span>
+                </button>
+            </div>
+
+            <div class="signup">
+                Bạn chưa có tài khoản? <a href="#">Đăng ký mới</a>
+            </div>
+        </div>
+    </body>
+</html>
